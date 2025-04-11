@@ -30,7 +30,7 @@
         }
         button:hover{
             background-color: #007B9E;
-            
+
         }
     </style>
 </head>
@@ -46,22 +46,22 @@
             once, which can improve performance for tasks such as gaming, video editing, and multitasking.
         </p>
     </div>
-    <!-- <button onclick="addElements()">Add</button> -->
-    <button onclick="removeElements()">Remove Element</button>
+    <button onclick="addElements()">Add</button>
+    <!-- <button onclick="removeElements()">Remove Element</button> -->
     <script>
 
         // This function will add a new element to the body of the document
-        // function addElements() {
-        //     let newPera = document.createElement('h1');
-        //     newPera.innerText = "Hello  World!";
-        //     document.body.appendChild(newPera);
-        // }
+        function addElements() {
+            let newPera = document.createElement('h1');
+            newPera.innerText = "Hello  World!";
+            document.body.appendChild(newPera);
+        }
 
         // This function will remove the last element from the body of the document
-        function removeElements() {
-            const box = document.getElementById('box');
-            box.remove();
-        }
+        // function removeElements() {
+        //     const box = document.getElementById('box');
+        //     box.remove();
+        // }
     </script>
 </body>
 
